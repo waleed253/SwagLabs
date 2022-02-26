@@ -73,15 +73,10 @@ public class Swaglabs extends Report {
 	
 	public void Logout() {
 
-		//test = extent.createTest("Swaglabs", "Swaglab logout test case ");
-
-		//driver.findElement(By.xpath("//*[@id=\"back-to-products\"]")).click(); // back home
-		//logintest();
 		driver.findElement(By.xpath("//*[@id=\"react-burger-menu-btn\"]")).click(); // click on menu btn
 		driver.findElement(By.xpath("//*[@id=\"logout_sidebar_link\"]")).click(); // click on logout
 		driver.close();
 
-		//test.info("Test completed");
 
 	}
 
