@@ -44,17 +44,6 @@ public class Swaglabs extends Report {
 
 	}
 
-	
-//	public void Login() {
-//
-//		test = extent.createTest("Swaglabs", "Swaglab login test case ");
-//
-//		test.log(Status.INFO, "Starting Test Cases");
-//
-//		//logintest();
-//
-//	}
-
 	@Test(priority = 1)
 	public void AddToCart() {
 
